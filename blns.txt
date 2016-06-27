@@ -589,6 +589,19 @@ COM2
 COM3
 COM4
 
+# Special charecters
+#
+# Strings whit charecters which can't change from one encoding to an other
+
+# CP-1252 -> ISO-8859-1
+€ŠšŽžŒœŸ
+
+# CP-1252 -> ISO-8859-15
+¤¦¨´¸¼½¾
+
+# CP-1250 -> ISO-8859-2
+š›śťžźˇĄ¦©«¬®±µ¶·ą»Ľľ€‚„…†‡‰Š‹ŚŤŽŹ‘
+
 #   IRC specific strings
 #
 #   Strings that may occur on IRC clients that make security products freak out
